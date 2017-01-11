@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Board</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="css/estilos.css" rel="stylesheet">
+</head>
+<body>
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Board Bot</h3>
+  <img src="board.jpg" class="img-responsive img-circle" style="display:inline" alt="Bird" width="350" height="350">
+  <h3>Board Bot Engine</h3>
+  <a href="https://github.com/senjuana/board" class="btn btn-default btn-lg">
+     <b style="color:#003366;">View on github</b>
+  </a>
+  <a href="https://github.com/senjuana/board/releases/download/v2.0/chess.jar" class="btn btn-default btn-lg">
+     <b style="color:#003366;">Download</b>
+  </a>
+  <a href="https://github.com/senjuana/board/archive/v2.0.zip" class="btn btn-default btn-lg">
+    <b style="color:#003366;">Download Source</b>
+  </a>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">About</h3>
+  <p>Este proyecto es un sistema OpenSource de Chessbot.<br>
+     Que esta separado en dos repositorios,<br> el engine de ajedrez y el sistema de control del brazo </p>
+  <a href="https://github.com/senjuana/board" class="btn btn-default btn-lg">
+    Sigue Leyendo
+  </a>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3 class="margin">Requerimientos</h3>
+      <div class="text-center">
+        <p>Para poder correr el Engine de ajedrez necesitas tener instalado en tu computador
+        una version igual o superior a la 7 de java develoment kit.<br>
+        En el siguiente link se anexa un tutorial para poder instalarlo.<br></p>
+      </div>
+      <div class="col-sm-4  col-md-push-4">
+        <a href="https://www.youtube.com/watch?v=qFoqEfd7ATE">
+            <img src="jdk.jpg" class="img-responsive margin" style="width:110%" alt="Image">
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <h3 class="margin">Como lo descargo?</h3>
+      <div class="text-center">
+        <p>Una vez que tienes todos los requerimientos instalados
+          necesitas descargar el archivo binario del engine para descargarlo
+          dale al boton de Download de la parte de arriba.</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+        <h3 class="margin">Ejecutandolo</h3>
+        <div class="text-justify">
+          <p>Una vez que tienes descargado el binario del engine
+          lo que necesitas hacer para ejecutarlo es abrir la shell
+          de tu sistema operativo, y situarte en la carpeta donde se descargo el binario
+          y ejecuta el siguiente comando.
+          </p>
+        </div>
+        <h4><b>java -jar chess.jar</b></h4>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4">
+  <div class="row">
+    <div class="col-sm-6">
+      <p>© 2016-2017 </p>
+      <p>Ernesto Ruiz </p>
+    </div>
+    <div class="col-sm-6 text-right">
+      <p>Social</p>
+      <p><a href="https://twitter.com/senjuana">Twitter</a></p>
+      <p><a href="https://github.com/senjuana">github</a></p>
+      <p><a href="https://gitlab.com/senjuana">gitlab</a></p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
